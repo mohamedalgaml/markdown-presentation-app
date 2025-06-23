@@ -1,0 +1,67 @@
+.error-boundary {
+  padding: 2rem;
+  background: #fff8f8;
+  border: 1px solid #ffcccc;
+  border-radius: 8px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.error-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-icon {
+  color: #ff4d4f;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.error-boundary h2 {
+  color: #ff4d4f;
+  margin-bottom: 1rem;
+}
+
+.reset-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.reset-button:hover {
+  background: #ff7875;
+}
+
+.reset-icon {
+  font-size: 0.9rem;
+}
+
+.error-details {
+  text-align: left;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  color: #666;
+}
+
+.error-details summary {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.error-details pre {
+  white-space: pre-wrap;
+  font-size: 0.8rem;
+  overflow-x: auto;
+}
