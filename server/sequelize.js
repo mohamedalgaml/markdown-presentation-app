@@ -4,7 +4,7 @@ const betterSqlite3 = pkg;
 
 const sequelize = new Sequelize({
   dialect: 'sqlite',
-  storage: './database.sqlite', 
+  storage: './database.sqlite', // استخدم هذا فقط
   logging: false,
   dialectModule: betterSqlite3
 });
