@@ -1,11 +1,12 @@
 import { Sequelize, DataTypes } from 'sequelize';
-import betterSqlite3 from 'better-sqlite3'; 
+import pkg from 'better-sqlite3';
+const betterSqlite3 = pkg;
 
 const sequelize = new Sequelize({
   dialect: 'sqlite',
-  storage: './slides.db',
+  storage: './database.sqlite', 
   logging: false,
-  dialectModule: betterSqlite3 
+  dialectModule: betterSqlite3
 });
 
 const Slide = sequelize.define('Slide', {
